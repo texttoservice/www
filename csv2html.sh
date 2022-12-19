@@ -10,7 +10,8 @@ OUTPUT=README.md
 #
 # Script to split a string based on the delimiter
 #LINES=$(cat $INPUT)
-echo "# MARKETPLACE " > $OUTPUT
+echo "# [texttoservice - MARKETPLACE](http://www.texttoservice.com/)" > $OUTPUT
+echo "" >> $OUTPUT
 COUNTER=0
 LIMIT=2
 
