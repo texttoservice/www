@@ -10,7 +10,7 @@ OUTPUT=README.md
 #
 # Script to split a string based on the delimiter
 #LINES=$(cat $INPUT)
-echo "# [texttoservice - MARKETPLACE](http://www.texttoservice.com/)" > $OUTPUT
+echo "# [texttoservice:](http://www.texttoservice.com/)" > $OUTPUT
 echo "" >> $OUTPUT
 COUNTER=0
 LIMIT=2
@@ -32,7 +32,11 @@ do
          #   echo $COL
             echo "## [${ROW[0]}](${ROW[3]})" >> $OUTPUT
             echo "${ROW[1]} " >> $OUTPUT
-            echo "${ROW[2]} " >> $OUTPUT
+            REPO=${ROW[2]}
+            # DOWNLOAD CONTENT and ATTACHe to DESCRIPTION
+            #git clone $REPO
+            #curl https://raw.githubusercontent.com/readock-com/bash/main/README.md
+            echo "$REPO " >> $OUTPUT
             echo " " >> $OUTPUT
           #  echo $COL >> $OUTPUT
             #echo $COL[0] >> $OUTPUT

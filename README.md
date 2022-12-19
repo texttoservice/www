@@ -1,4 +1,4 @@
-# [texttoservice - MARKETPLACE](http://www.texttoservice.com/)
+# [texttoservice:](http://www.texttoservice.com/)
 
 ## [document recognition](https://bash.readock.com)
 show text from pdf 
