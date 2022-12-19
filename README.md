@@ -1,2 +1,9 @@
-# www.texttoservice.com
-www.texttoservice.com
+# MARKETPLACE 
+## [document recognition](https://bash.readock.com)
+show text from pdf 
+https://github.com/readock-com/bash 
+ 
+## [document recognition](https://bash.readock.com)
+show text from pdf 
+https://github.com/readock-com/bash 
+ 
